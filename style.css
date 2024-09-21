@@ -46,6 +46,7 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Source Code Pro;
 }
 
 .group2{
@@ -128,7 +129,7 @@ div{
 
 }
 
-#subtitle{
+#Subtitle{
     width: 108px;
     height: 18px;
     gap: 0px;
@@ -144,6 +145,7 @@ div{
 
 .content_text{
     display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -166,11 +168,12 @@ div{
     justify-content: end;
     align-items: end;
     font-family: Source Code Pro;
+    gap: 5px;
 }
 
 .button{
-    width: 82px;
     height: 31px;
+    padding: 8px 12px;
     border-radius: 100px;
     border-style: solid;
     border-color: #3C3C43;
