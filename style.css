@@ -9,7 +9,7 @@ div{
 .card{
     width: 342px;
     height: 471px;
-    border-radius: 12px;
+    border-radius: 15px;
     background-color: white;
     margin: 30px;
 }
@@ -37,7 +37,7 @@ div{
 }
 
 .round{
-    width: 32px;
+    min-width: 32px;
     height: 32px;
     border-radius: 100%;
     gap: 0px;
@@ -58,6 +58,8 @@ div{
 #round2{
     width: 16px;
     height: 16px;
+    background: #DEDEDE;
+    border-radius: 100%;
 }
 
 .header_text{
@@ -150,7 +152,6 @@ div{
 }
 
 .content_texts{
-    width: 294px;
     height: 36px;
     gap: 0px;
     opacity: 0px;
